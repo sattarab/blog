@@ -8,6 +8,12 @@ body {
   	src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 
+#main_carousel {
+	height: 300px;
+	width:600px;
+	float:left;
+}
+
 h4 span{
 	font-size: 14px;
 }
