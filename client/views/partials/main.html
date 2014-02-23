@@ -1,0 +1,80 @@
+<div class="row">
+	<nav class="navbar navbar-default navbar-fixed-top hidden-print" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	              <span class="sr-only">Toggle navigation</span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	            </button>
+	            <a class="navbar-brand" href="http://www.qipcloud.com"><b style="font-size:30px">qipCloud</b></a>
+	        </div>
+	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="float:right">
+	        	<ul class="dropdown">
+	        		<a class="dropdown-toggle text-center" id="href-text">Download<i class="glyphicon glyphicon-chevron-down arrow-down"></i></a>
+		        	<ul class="dropdown-menu">
+		        		<li><a href="http://qipcloud.com/data/Client_Installer.exe">For Windows</a></li>
+		        		<li><a href="http://qipcloud.com/data/qipCloud_Installer.dmg">For Mac</a></li>
+		        	</ul>
+		        </ul>
+		    </div>
+		</div>
+	</nav>
+</div>
+<div class="row" 
+<div class="row" id="main-div">
+	<div class="col col-sm-3" id="right-image">
+		<img class="img-rounded" src="../images/works.png"/>
+	</div>
+	<div class="col-sm-offset-4 col-sm-5" id="form-signup">
+		<img class="img-rounded img-cloud" src="../images/qipCloud.png"/>
+		<h4>Your image analytics cloud</h4>
+		<form ng-submit="signup()" id="signup-form" no-validate>
+		    <div class="form-group" id="form-slideable" ng-show="isCollapsed" collapsed="isCollapsed"> 
+		    	<input class="animate-hide-username form-control" id="signup-username" type="text" required placeholder="Username" ng-model="user.username" autofocus/>
+		    	<input class="animate-hide-password form-control" id="signup-password" type="password" required placeholder="Password" ng-model="user.password" /><br/>
+		    	<label>
+		        	<input type="checkbox" required> I agree to <a href="#">QipCloud terms</a>
+		      	</label>
+		        <div class="alert alert-danger" ng-show="errorMessage"/>
+		        	{{message}}
+		        </div>
+		      	<div class="form-group">
+		      		<button id="button-signup" class="btn btn-primary btn-md btn-block">Sign up</button>
+		      	</div>
+		    </div>
+	    	<button id="button-signup" type="button" ng-hide="isCollapsed" ng-click="isCollapsed = !isCollapsed" class="btn btn-primary btn-md btn-block">Sign up</button>
+	    	<div class="text-center"/>
+	  			<p id="login-href-text">or <a id="login-href" ng-click="open()">Sign in</a></p>
+	    	</div>
+	  	</form>
+	</div>
+</div>
+<div class="text-center">
+	<a id="href-text" ng-click="scrollTo('information')">Learn more<i class="glyphicon glyphicon-chevron-down arrow-down"></i></a>
+</div>
+<div id="information">
+	<h3 class="text-center">It's fast and accurate</h3>
+	<h5 class="text-center">Analyzing images and gaining insight from your microstructures is fast and convenient</h5>
+	<div class="container">
+		<div class="row" id="info-div">
+			<div class="col-md-offset-2 text-left" id="detailed-text" style="float:left">
+				<h4>Calibration and Precision</h4>
+				<p> qipCloud is compatible with any microscope <br /> and image acquistion device</p>
+			</div>
+			<img class="col-md-offset-1 img-info" src="../images/calib.png"/>
+		</div>
+		<div class="row" id="info-div">
+			<img class="col-md-offset-2 img-info" src="../images/measurements.png" style="float:left"/>
+			<div class="col-md-offset-7 text-left" id="detailed-text" >
+				<h4>Advanced Image Processing Algorithms</h4>
+				<p> qipCloud sends a specific image processing <br /> to your computer to analyze the image.<br />
+						Complex algorithms detect the feature's color, <br /> conrast, shape, gradient and edges and provide a <br />
+						wealth of information with automatic reports
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+

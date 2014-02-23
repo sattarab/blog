@@ -1,0 +1,112 @@
+body {
+	padding-top :0px;
+}
+
+@font-face {
+  	font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;;
+  	src: url('../fonts/glyphicons-halflings-regular.eot');
+  	src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+h4 span{
+	font-size: 14px;
+}
+
+#forgot-password-submit {
+	width: 80px;
+}
+
+#username-forgot{
+	width: 450px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.arrow-down {
+	font-size: 0.6em;
+}
+
+#href-text {
+	color:#CCCCCC;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#login-href-text {
+	color:#CCCCCC;
+}
+
+#login-href:hover {
+	text-decoration:underline;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#href-text:hover{
+	color:#666666;
+	font-weight: bold;
+}
+
+#main-div {
+	padding: 145px;
+}
+
+.img-cloud {
+	width: 150px;
+	height: 100px;
+}
+
+#information {
+	padding-top:50px;
+}
+
+#info-div {
+	padding-top:70px;
+}
+
+.img-info {
+	width: 300px;
+	height: 200px;
+}
+
+#right-image img {
+	width: 350px;
+	max-height: 300px;
+}
+
+#form-login {
+	max-width: 330px;
+}
+ 
+.input-login{
+	padding-top: 10px;
+	padding-left:10px;
+	padding-right: 10px;
+}
+
+#form-signup {
+	max-width: 275px;
+}
+
+#signup-username {
+	margin-bottom: 10px;
+}
+
+#header-home {
+	padding-top: 60px;
+}
+
+#file-link-home {
+	font-weight: bold;
+	color:#666666;
+}
+
+#download-report-home {
+	padding-right: 10px;
+}
+
+#share-home {
+	padding-right: 10px;
+}
