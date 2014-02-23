@@ -32,7 +32,7 @@ app.configure(function(){
 	app.set('port', 8000);
 	app.set('views', path.join(__dirname, '/client/views'));
 	app.set('view engine', 'ejs');
-	app.use(express.favicon(__dirname + '/client/images/favicon.ico'));
+	app.use(express.favicon());
 	app.use(express.logger('dev'));
 	app.use(express.json());
 	app.use(express.urlencoded());
